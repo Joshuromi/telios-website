@@ -1,0 +1,24 @@
+#footer {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.footer-contact {
+    font-weight: 600;
+}
+
+.footer-links {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link-group p {
+    cursor: pointer;
+}
+
+.footer-link-group p:hover {
+    color: #FD8A1D;
+}

@@ -1,0 +1,62 @@
+#brochure {
+    padding: 40px;
+}
+
+.brochure-div {
+    margin: 50px auto;
+    max-width: 1300px;
+    background-color: #4A2388;
+    background-image: url("../../assets/images/brohure-image.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: #fff;
+    border-radius: 70px;
+    border-radius: 85px;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.brochure-div h1 {
+    font-size: 38px;
+}
+
+.brochure-div p {
+    font-size: 24px;
+    color: #DBDBDB;
+}
+
+.brochure-form {
+    max-width: 650px;
+    margin: 70px auto;
+    position: relative;
+}
+
+.brochure-form input {
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 20px;
+    
+}
+
+.brochure-form input:focus {
+    outline: #B5B5B5;
+}
+
+.brochure-form input::placeholder {
+    color: #B5B5B5;
+}
+
+.brochure-form button {
+    height: 80px;
+    width: 188px;
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+    background-color: #FD8A1D;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}

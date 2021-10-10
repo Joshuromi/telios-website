@@ -1,0 +1,84 @@
+#about-us {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.how-we-work {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.how-we-work-details {
+    width: 950px;
+    padding-left: 40px;
+    align-self: flex-end;
+}
+
+.about-us-title {
+    color: #333;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1.1;
+    text-shadow: 3px 0 currentColor;
+}
+
+.how-we-work-line {
+    width: 140px;
+    border: 4px solid #FD8A1D;
+    border-radius: 50px;
+    margin-top: -40px;
+}
+
+.about-us-text {
+    font-size: 27px;
+    line-height: 1.7;
+    max-width: 700px;
+}
+
+.how-we-work-img {
+    align-self: center;
+}
+
+.how-we-work-img img {
+    max-width: 100%;
+}
+
+.what-we-do {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 60px;
+}
+
+.what-we-do-details {
+    align-self: flex-end;
+    padding-right: 40px;
+}
+
+.what-we-do-line {
+    width: 80px;
+    border: 4px solid #4A2388;
+    border-radius: 50px;
+    margin-top: -40px;
+}
+
+.what-we-do-img {
+    width: 950px;
+    align-self: center;
+}
+
+.what-we-do-img img {
+    max-width: 100%;
+}
+
+.why-us {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.why-us-details {
+    width: 950px;
+    padding-left: 40px;
+}

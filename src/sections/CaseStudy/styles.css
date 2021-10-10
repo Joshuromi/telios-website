@@ -1,0 +1,109 @@
+.case-study-div {
+    background-image: url("../../assets/images/bg-light-purple.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    padding-top: 200px;
+    z-index: -2;
+}
+
+#case-study {
+    padding: 0 40px;
+}
+
+.case-study-cartoon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    margin-top: -70px;
+}
+
+.case-study-info {
+    margin: auto;
+    background-color: #4A2388;
+    max-width: 1190px;
+    color: #fff;
+    padding: 20px 60px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 13px 11px 13px #9589A824;
+}
+
+.case-study-info h1 {
+    font-size: 37px;
+}
+
+.case-study-info p {
+    font-size: 28px;
+    color: #DCDCDC;
+}
+
+.testimonials {
+    background-color: #ece4f8;
+}
+
+.testimonials-text {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.testimonials-text h1 {
+    background-color: #FFECD9;
+    color: #FD8A1D;
+    font-size: 29px;
+    border-radius: 47px;
+    padding: 10px 40px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.testimonials-text p {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.testimonials-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonial-1 {
+    background-image: url("../../assets/images/testimonial-1.png");
+    max-width: 600px;
+    height: 750px;
+    margin: 75px 0;
+    font-size: 22px;
+}
+
+.testimonial-2 {
+    background-image: url("../../assets/images/testimonial-2.png");
+    max-width: 500px;
+    height: 600px;
+    font-size: 18px;
+}
+
+.testimonial-3 {
+    background-image: url("../../assets/images/testimonial-3.png");
+    max-width: 500px;
+    height: 600px;
+    font-size: 18px;
+}
+
+.testimonial-bg {
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 100px;
+    text-align: center;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.testimonial-bg span {
+    font-weight: 700;
+}
+

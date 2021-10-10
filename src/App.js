@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Navbar from "./components/Navbar";
+import Header from "./sections/Header";
+import ProductsAndPartners from "./sections/ProductsAndPartners";
+import AboutUs from "./sections/About";
+import TechStack from "./sections/TechStack";
+import CaseStudy from "./sections/CaseStudy";
+import Brochure from "./sections/Brochure";
+import Footer from "./sections/Footer";
+import Modal from "./components/Modal";
 
-function App() {
+const App = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar setIsOpen={setIsOpen} />
+      <div className="App">
+        <Header setIsOpen={setIsOpen} />
+        <ProductsAndPartners />
+        <AboutUs />
+        <TechStack />
+        <CaseStudy />
+        <Brochure />
+        <Footer />
+        {
+        isOpen && <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
+        }
+      </div>
+    </>
   );
 }
 

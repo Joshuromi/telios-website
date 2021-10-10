@@ -1,0 +1,36 @@
+#tech-stack {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px
+}
+
+.tech-stack-text {
+    /* width: 650px; */
+    padding-top: 40px;
+}
+
+.tech-stack-text h1 {
+    font-size: 72px;
+    text-shadow: 3px 0 currentColor;
+    letter-spacing: 5px;
+    line-height: 1.1;
+    color: #333;
+}
+
+.tech-stack-text p {
+    margin-top: -35px;
+    font-size: 28px;
+}
+
+.tech-stack-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+.tech-stack-icon {
+    margin: 20px 0;
+    margin-left: 12%;
+}
