@@ -76,12 +76,13 @@
 
 @media (max-width: 900px) {
     #header {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding-bottom: 0;
     }
 
     .intro {
         max-width: 500px;
+        padding-bottom: 20px;
     }
 
     .intro-text {

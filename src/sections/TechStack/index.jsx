@@ -14,7 +14,7 @@ const TechStack = () => {
     return (
         <section id="tech-stack">
             <div className="tech-stack-text">
-                <h1>Tech <br/>Stack</h1>
+                <h1>Tech Stack</h1>
                 <p>Here are some of the technologies we love.</p>
             </div>
             <div className="tech-stack-icons">

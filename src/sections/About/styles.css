@@ -21,6 +21,7 @@
     font-weight: 900;
     line-height: 1.1;
     text-shadow: 3px 0 currentColor;
+    letter-spacing: 2px;
 }
 
 .how-we-work-line {
@@ -41,7 +42,7 @@
 }
 
 .how-we-work-img img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .what-we-do {
@@ -81,4 +82,91 @@
 .why-us-details {
     width: 950px;
     padding-left: 40px;
+}
+
+@media (max-width: 1050px) {
+    .how-we-work-details {
+        max-width: 600px;
+        padding-left: 20px;
+    }
+
+    .about-us-title {
+        font-size: 60px;
+    }
+
+    .about-us-text {
+        font-size: 20px;
+    }
+
+    .what-we-do-img {
+        width: auto;
+    }
+
+    .what-we-do-details {
+        padding-right: 20px;
+    }
+
+    .why-us-details {
+       max-width: 600px;
+    }
+}
+
+@media (max-width: 780px) {
+    .about-us-title {
+        font-size: 45px;
+    }
+
+    .how-we-work-line {
+        width: 100px;
+        border: 2px solid #FD8A1D;
+        margin-top: -25px;
+    }
+
+    .about-us-text {
+        font-size: 18px;
+    }
+
+    .what-we-do-details {
+        padding-right: 0px;
+    }
+
+    .what-we-do-line {
+        width: 50px;
+        border: 2px solid #4A2388;
+        margin-top: -25px;
+    }
+}
+
+@media (max-width: 620px) {
+    .how-we-work {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .how-we-work-details {
+        width: 100%;
+    }
+
+    .what-we-do {
+        flex-direction: column;
+    }
+
+    .what-we-do {
+        padding-bottom: 0px;
+    }
+
+    .what-we-do-details {
+        padding: 20px;
+    }
+
+    .why-us {
+        flex-direction: column-reverse;
+    }
+
+    .why-us-details {
+        max-width: 100%;
+        padding-left: 20px;
+    }
+
 }

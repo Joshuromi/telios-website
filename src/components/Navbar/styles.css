@@ -78,30 +78,41 @@
 
     .navbar-links-div {
         width: auto;
+        font-size: 17px;
     }
 
     .navbar-link {
         margin: 0px 20px;
     }
+
 }
 
 @media only screen and (max-width: 780px) {
+    #navbar {
+        height: 60px;
+    }
+
     .navbar-logo-div img {
-        width: 100px;
+        width: 90px;
     }
     .navbar-links-div {
         position: fixed;
         left: -100%;
-        top: 0;
+        top: 3.5rem;
         bottom: 0;
         flex-direction: column;
         justify-content: flex-start;
         background-color: rgba(255, 255, 255);
         width: 100%;
-        padding: 40px 20px;
+        padding: 20px;
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar-consult p {
+        border-bottom: none;
+        cursor: pointer;
     }
 
     .navbar-links {

@@ -8,7 +8,6 @@
     inset: 0;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     background-color: #5D5D5D70;
     z-index: 1000;
     padding: 40px;
@@ -19,12 +18,12 @@
     inset: 0;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .modal-body {
     position: relative;
     max-width: 1500px;
+    max-height: 900px;
     padding: 40px;
     padding-top: 60px;
     background-color: #4A2388;
@@ -162,6 +161,7 @@
 
     .modal-body {
         flex-direction: column;
+        border-radius: 20px;
     }
 
     .modal-info {
@@ -193,10 +193,12 @@
     .modal-form input, .modal-form select, .modal-form textarea {
         margin: 15px 0;
         font-size: 16px;
+        border-radius: 5px;
     }
 
     .modal-form textarea {
         width: 100%;
+        border-radius: 5px;
     }
 
     .modal-buttons {
@@ -206,6 +208,7 @@
     .phone {
         margin: 15px 10px;
         width: 97%;
+        border-radius: 5px;
     }
 }
 
@@ -215,6 +218,7 @@
     }
     .modal-body {
         padding: 20px;
+        border-radius: 10px;
     }
     .modal-info {
         padding: 0;
@@ -238,7 +242,7 @@
     }
 
     .modal-info h1 {
-        font-size: 30px;
+        font-size: 28px;
         margin: 0;
         line-height: 1;
     }
@@ -261,4 +265,26 @@
         height: 44px;
     }
 
+}
+
+@media (max-width: 400px) {
+    .modal {
+        padding: 10px;
+    }
+
+    .modal-info h1 {
+        font-size: 24px;
+    }
+
+    .modal-form input, .modal-form select, .modal-form textarea {
+        height: 35px;
+    }
+
+    .modal-form textarea {
+        height: 100px;
+    }
+
+    .phone {
+        height: 35px;
+    }
 }

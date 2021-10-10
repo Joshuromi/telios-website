@@ -20,19 +20,19 @@ const CaseStudy = () => {
                 </div>
                 <div className="testimonials-div">
                     <div className="testimonial-2 testimonial-bg">
-                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will.</p>
-                        <span>Demilade Balogun</span>
-                        <p>UI/UX Designer at The Bulb Africa</p>
+                        <p>The Telios team is simply outstanding. They understood what we wanted to do even though they aren't experts in our field. They helped us to finetune our product idea, this helped us realize we needed funding to build it. We will definitely turn to them to help us build the product after we raise funds. I highly recommend them.</p>
+                        <span>Anthony Johnston</span>
+                        <p>cofounder FFinery Technologies LLC</p>
                     </div>
                     <div className="testimonial-1 testimonial-bg">
-                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will.</p>
-                        <span>Demilade Balogun</span>
-                        <p>UI/UX Designer at The Bulb Africa</p>
+                        <p>Telios helped define a cloud migration plan for all our onprem software products. They built the AWS cloud infrastructure, trained our tech team and led a successful migration. This project saved us hundreds of dollars in monthly bills and helped us to scale an important product for on of our main clients. Telios team is top notch.</p>
+                        <span>Mike Owokade</span>
+                        <p>COO Enov8 Solutions LTD</p>
                     </div>
                     <div className="testimonial-3 testimonial-bg">
-                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will.</p>
-                        <span>Demilade Balogun</span>
-                        <p>UI/UX Designer at The Bulb Africa</p>
+                        <p>When we first met the Telios team we were a bit skeptical, they were relatively unkown and we weren't sure they could pull off the DevOps project. The kickoff meeting quickly put us at ease, we were deeply impressed by the depth of their technical understading and ability to communicate clearly. The project was a success and we look forward to more engagements. Telios is the best.</p>
+                        <span>Agang Magaji</span>
+                        <p>Infrastructure Lead Polaris Bank LTD</p>
                     </div>
                 </div>
             </div>

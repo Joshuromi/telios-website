@@ -10,7 +10,6 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     color: #fff;
-    border-radius: 70px;
     border-radius: 85px;
     padding: 80px 40px;
     text-align: center;
@@ -59,4 +58,79 @@
     font-size: 20px;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+    #brochure {
+        padding: 20px;
+    }
+
+    .brochure-div {
+        margin: 30px auto;
+        border-radius: 35px;
+        padding: 60px 30px;
+        text-align: center;
+    }
+
+    .brochure-form {
+        margin: 50px auto;
+    }
+
+    .brochure-div h1 {
+        font-size: 32px;
+    }
+
+    .brochure-div p {
+        font-size: 20px;
+    }
+
+    .brochure-form input {
+        height: 60px;
+        font-size: 18px;    
+    }
+
+    .brochure-form button {
+        height: 60px;
+        width: 160px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 780px) {
+    #brochure {
+        padding: 10px;
+    }
+
+    .brochure-div {
+        margin: 30px auto;
+        padding: 30px 10px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .brochure-form {
+        margin: 30px auto;
+    }
+
+    .brochure-div h1 {
+        font-size: 24px;
+    }
+
+    .brochure-div p {
+        font-size: 16px;
+    }
+
+    .brochure-form input {
+        height: 50px;
+        font-size: 16px; 
+        padding: 10px;  
+        border-radius: 5px; 
+    }
+
+    .brochure-form button {
+        height: 50px;
+        width: 100px;
+        font-size: 16px;
+        border-radius: 5px; 
+    }
 }

@@ -6,11 +6,11 @@ const Footer = () => {
         <section id="footer">
             <div className="footer-contact" id="contact-us">
                 <img src={teliosLogo} alt="telios logo" onClick={() => window.location.replace("/")} />
-                <address>
+                <p>
                     144, Kudirat Abiola way,<br />
                     Ikeja, Lagos. <br />
                     Nigeria.
-                </address>
+                </p>
                 <p>09034906171, 07067521064</p>
                 <div className="footer-socials">
 

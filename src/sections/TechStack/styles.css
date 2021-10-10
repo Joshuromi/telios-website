@@ -5,11 +5,11 @@
 }
 
 .tech-stack-text {
-    /* width: 650px; */
     padding-top: 40px;
 }
 
 .tech-stack-text h1 {
+    width: 250px;
     font-size: 72px;
     text-shadow: 3px 0 currentColor;
     letter-spacing: 5px;
@@ -34,3 +34,74 @@
     margin: 20px 0;
     margin-left: 12%;
 }
+
+@media (max-width: 1050px) {
+    #tech-stack {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px
+    }
+
+    .tech-stack-text {
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .tech-stack-text h1 {
+       width: auto;
+    }
+
+    .tech-stack-icon {
+        margin: 20px 30px;
+    }
+}
+
+@media (max-width: 780px) {
+    .tech-stack-text h1 {
+        font-size: 45px;
+    }
+
+    .tech-stack-text p {
+        font-size: 20px;
+        margin-top: -25px;
+    }
+
+    .tech-stack-icons {
+        max-width: 460px;
+    }
+
+    .tech-stack-icon {
+        margin: 10px 20px;
+    }
+
+    .tech-stack-icon img {
+        width: 80px;
+    } 
+}
+
+@media (max-width: 400px) {
+    #tech-stack {
+        padding: 0 10px
+    }
+
+    .tech-stack-text h1 {
+        font-size: 32px;
+    }
+
+    .tech-stack-icon img {
+        width: 65px;
+    } 
+
+    .tech-stack-text p {
+        font-size: 18px;
+    }
+
+    .tech-stack-icon {
+        margin: 10px;
+    }
+
+    .tech-stack-icons {
+        max-width: 320px;
+    }
+}
+

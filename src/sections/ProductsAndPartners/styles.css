@@ -79,6 +79,14 @@
     .product-icon span {
         font-size: 16px;
     }
+
+    .trusted-partners-title {
+        font-size: 32px;
+    }
+
+    .trusted-partners-logos img {
+        height: 80px;
+    }
 }
 
 @media (max-width: 780px) {
@@ -88,7 +96,19 @@
 
     .product-icon {
         height: 150px;
-    }   
+    } 
+    
+    .trusted-partners-title {
+        font-size: 24px;
+    }
+
+    .trusted-partners-logos img {
+        height: 60px;
+    }
+
+    .trusted-partners {
+        padding: 10px;
+    }
 }
 
 @media (max-width: 400px) {

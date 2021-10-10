@@ -35,7 +35,7 @@ section {
 }
 
 input:focus, select:focus, button:focus, textarea:focus {
-  outline: 2px solid lightsalmon;
+  outline: none;
 }
 
 .App {
