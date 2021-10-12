@@ -1,6 +1,6 @@
 :root {
-    --PhoneInputCountryFlag-height: 41px;
-    --PhoneInputCountrySelect-marginRight: -50px;
+    --PhoneInputCountryFlag-height: 38px;
+    --PhoneInputCountrySelect-marginRight: -48px;
 }
 
 .modal {
@@ -8,6 +8,7 @@
     inset: 0;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     background-color: #5D5D5D70;
     z-index: 1000;
     padding: 40px;
@@ -18,12 +19,13 @@
     inset: 0;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .modal-body {
     position: relative;
     max-width: 1500px;
-    max-height: 900px;
+    max-height: 95vh;
     padding: 40px;
     padding-top: 60px;
     background-color: #4A2388;
@@ -44,7 +46,7 @@
 
 .modal-info {
     width: 40%;
-    padding-top: 20px;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -54,7 +56,7 @@
 
 .modal-info h1 {
     font-size: 44px;
-    margin-bottom: -20px;
+    margin-bottom: -5px;
 }
 
 .modal-info span {
@@ -75,7 +77,7 @@
 }
 
 .modal-form input, .modal-form select, .modal-form textarea {
-    width: 100%;
+    width: 50%;
     height: 64px;
     margin: 15px 20px;
     background-color: transparent;
@@ -84,6 +86,11 @@
     font-size: 18px;
     color: #ECE4F8;
     padding: 0 20px;
+    font-family: 'Nunito';
+}
+
+.modal-form input::placeholder, .modal-form textarea::placeholder {
+    color: #999;
 }
 
 .modal-form textarea {
@@ -102,7 +109,7 @@
 }
 
 .field-select select {
-    color: #aaa;
+    color: #999;
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -113,7 +120,7 @@
 }
 
 .phone {
-    width: 100%;
+    width: 50%;
     height: 64px;
     margin: 15px 0 15px 30px;
 }
@@ -153,62 +160,114 @@
     color: #ECE4F8;
 }
 
+.react-calendar {
+    width: 100%;
+    background: transparent;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 1.6em;
+    margin: 20px 0;
+}
+
+.react-calendar button {
+    font-family: 'Nunito';
+    font-size: 18px;
+    color: #fff;
+    height: 50px;
+}
+
+.react-calendar__tile:disabled {
+    color: #999;
+}
+
+.react-calendar button:enabled:hover {
+    cursor: pointer;
+    color: #333;
+}
+
+.time-field {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.error {
+    color: red;
+    line-height: 0;
+    margin-bottom: -1px;
+}
+
+.booking-confirmation {
+    padding: 50px;
+}
+
+.booking {
+    text-align: center;
+    margin: auto;
+}
+
 @media (max-width: 1050px) {
     :root {
-        --PhoneInputCountryFlag-height: 25px;
-        --PhoneInputCountrySelect-marginRight: -25px;
+        --PhoneInputCountrySelect-marginRight: 0px;
     }
-
     .modal-body {
         flex-direction: column;
         border-radius: 20px;
     }
-
     .modal-info {
         display: flex;
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        overflow:visible;
+        overflow: visible;
         height: 150px;
     }
-
     .modal-info h1 {
+        font-size: 32px;
         margin: 0;
     }
-
     .modal-info img {
         width: 150px
     }
-
     .modal-form {
         width: 85%;
         margin: 0 auto;
     }
-
+    .calender-div {
+        width: 100%;
+        margin: 0 auto;
+    }
     .field-block {
         flex-direction: column;
     }
-
     .modal-form input, .modal-form select, .modal-form textarea {
+        width: 100%;
         margin: 15px 0;
         font-size: 16px;
         border-radius: 5px;
     }
-
     .modal-form textarea {
         width: 100%;
         border-radius: 5px;
     }
-
     .modal-buttons {
         justify-content: center;
     }
-
     .phone {
         margin: 15px 10px;
-        width: 97%;
+        width: 98%;
         border-radius: 5px;
+    }
+
+    .phone input {
+        padding: 0 20px;
+    }
+
+    .time-field {
+        align-items: flex-start;
+    }
+
+    .booking-confirmation {
+        padding: 0px;
     }
 }
 
@@ -224,66 +283,64 @@
         padding: 0;
         height: 120px;
     }
-
     .modal-form {
         width: 95%;
     }
-
     .close-modal {
         margin-right: 20px;
         margin-top: 20px;
         width: 15px;
     }
-
     .modal-buttons button {
         width: 100px;
         height: 44px;
         font-size: 16px;
     }
-
     .modal-info h1 {
         font-size: 28px;
         margin: 0;
         line-height: 1;
     }
-
     .modal-info img {
         margin-right: 30px;
         width: 100px;
     }
-
     .modal-form input, .modal-form select, .modal-form textarea {
         height: 44px;
+        margin: 10px 0;
     }
-
     .modal-form textarea {
         height: 100px;
         padding: 10px;
     }
-
     .phone {
         height: 44px;
+        margin: 10px 0;
+        width: 100%;
     }
 
+    .react-calendar {
+        font-size: 18px;
+    }
+    
+    .react-calendar button {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 400px) {
     .modal {
         padding: 10px;
     }
-
     .modal-info h1 {
         font-size: 24px;
     }
-
     .modal-form input, .modal-form select, .modal-form textarea {
         height: 35px;
     }
-
     .modal-form textarea {
         height: 100px;
     }
-
     .phone {
         height: 35px;
     }

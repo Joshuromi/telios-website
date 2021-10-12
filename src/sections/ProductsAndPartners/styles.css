@@ -89,6 +89,12 @@
     }
 }
 
+@media (max-width: 950px) {
+    #products {
+        max-width: 500px;
+    }
+}
+
 @media (max-width: 780px) {
     #products {
         padding: 20px 10px;
@@ -108,6 +114,12 @@
 
     .trusted-partners {
         padding: 10px;
+    }
+}
+
+@media (max-width: 520px) {
+    #products {
+        max-width: 350px;
     }
 }
 
