@@ -1,11 +1,16 @@
 import teliosLogo from "../../assets/images/telios-logo.png";
+import facebook from "../../assets/icons/facebook-icon.svg";
+import twitter from "../../assets/icons/tiwitter-icon.svg";
+import instagram from "../../assets/icons/instagram-icon.svg";
+import linkedin from "../../assets/icons/linkedIn-icon.svg";
+import youtube from "../../assets/icons/youtube-icon.svg";
 import "./styles.css";
 
 const Footer = () => {
     return (
         <section id="footer">
             <div className="footer-contact" id="contact-us">
-                <img src={teliosLogo} alt="telios logo" onClick={() => window.location.replace("/")} />
+                <img className="footer-logo" src={teliosLogo} alt="telios logo" onClick={() => window.location.replace("/")} />
                 <p>
                     144, Kudirat Abiola way,<br />
                     Ikeja, Lagos. <br />
@@ -13,7 +18,21 @@ const Footer = () => {
                 </p>
                 <p>09034906171, 07067521064</p>
                 <div className="footer-socials">
-
+                    <a href="#about-us">
+                        <img src={facebook} alt="social icon" />                    
+                    </a>
+                    <a href="#about-us">
+                        <img src={twitter} alt="social icon" />                    
+                    </a>
+                    <a href="#about-us">
+                        <img src={instagram} alt="social icon" />                    
+                    </a>
+                    <a href="#about-us">
+                        <img src={linkedin} alt="social icon" />                    
+                    </a>
+                    <a href="#about-us">
+                        <img src={youtube} alt="social icon" />                    
+                    </a>
                 </div>
             </div>
             <div className="footer-links">
