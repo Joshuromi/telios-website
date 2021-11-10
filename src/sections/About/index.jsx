@@ -35,7 +35,7 @@ const AboutUs = () => {
                 <div className="why-us-details">
                     <h1 className="about-us-title">Why us?</h1>
                     <div className="how-we-work-line"></div>
-                    <p className="about-us-text">Telios Support Services LTD is a leading IT firm with a distributed engineering team operating out of Lagos, Nigeria. We improve businesses across the globe by providing end-to-end IT solutions through our expertise in Cybersecurity, Digital Transformation, Cloud Engineering, MS SharePoint, and DevOps.</p>
+                    <p className="about-us-text">Telios Digital Services LTD is a leading IT firm with a distributed engineering team operating out of Lagos, Nigeria. We improve businesses across the globe by providing end-to-end IT solutions through our expertise in Cybersecurity, Digital Transformation, Cloud Engineering, MS SharePoint, and DevOps.</p>
                     <CustomButton color="#FD8A1D" action={() => window.location.replace("/#brochure")}>Learn more</CustomButton>
                 </div>
                 <div className="how-we-work-img">
