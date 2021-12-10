@@ -12,9 +12,8 @@ const Footer = () => {
             <div className="footer-contact" id="contact-us">
                 <img className="footer-logo" src={teliosLogo} alt="telios logo" onClick={() => window.location.replace("/")} />
                 <p>
-                    144, Kudirat Abiola way,<br />
-                    Ikeja, Lagos. <br />
-                    Nigeria.
+                    7, Blossom Cottages,<br />
+                    Lowen Road, London RM13 8JW.
                 </p>
                 <p>09034906171, 07067521064</p>
                 <div className="footer-socials">
