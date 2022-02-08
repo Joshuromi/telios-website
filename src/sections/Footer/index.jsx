@@ -15,7 +15,8 @@ const Footer = () => {
                     7, Blossom Cottages,<br />
                     Lowen Road, London RM13 8JW.
                 </p>
-                <p>09034906171, 07067521064</p>
+                <p>+44 20 7175 4464</p>
+                <p className="footer-italic">Telios Digital Services is a trading name of Sterling Sustainable Development Group Ltd</p>
                 <div className="footer-socials">
                     <a href="#about-us">
                         <img src={facebook} alt="social icon" />                    

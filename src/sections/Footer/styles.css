@@ -7,6 +7,7 @@
 
 .footer-contact {
     font-weight: 600;
+    padding-right: 30px;
 }
 
 .footer-socials {
@@ -27,6 +28,12 @@
 
 .footer-link-group p:hover {
     color: #FD8A1D;
+}
+
+.footer-italic {
+    font-style: italic;
+    font-weight: 300;
+    max-width: 420px;
 }
 
 @media (max-width: 1050px) {
@@ -64,5 +71,9 @@
 @media (max-width: 400px) {
     #footer {
         flex-direction: column;
+    }
+
+    .footer-contact {
+        padding-right: 0;
     }
 }
